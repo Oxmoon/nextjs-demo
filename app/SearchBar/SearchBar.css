@@ -1,0 +1,27 @@
+.product {
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 150px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+}
+
+.title {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.price {
+    font-weight: bolder;
+    text-align: right;
+}
+
+img {
+    width: 100px;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+}
